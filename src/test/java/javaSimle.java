@@ -26,7 +26,7 @@ public class javaSimle {
     }
 
 
-    @Test (expectedExceptions = NoSuchElementException.class)
+    @Test(expectedExceptions = NoSuchElementException.class)
     public Point Login(){
         WebElement LoginButton = driver.findElement(By.xpath("someXpath"));
         if (LoginButton.isEnabled()){
@@ -41,7 +41,7 @@ public class javaSimle {
         return null;
     }
 
-    @Test(dependsOnMethods = {"Login"})
+    @Test
     public void CheckLoginTrue(){
 
 
