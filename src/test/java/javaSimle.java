@@ -15,7 +15,7 @@ public class javaSimle {
     private WebDriver driver;
     private final String url = "https://www.google.com/";
 
-
+//some changes
     @BeforeTest
     public void TestJund() throws Exception{
         System.setProperty("webdriver.chrome.driver", "D:\\IDEA projects\\WebDrivers\\chromedriver97.exe");
